@@ -193,11 +193,7 @@ jobs:
         with:
           image-ref: '${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}'
           severity: 'CRITICAL,HIGH'
-<<<<<<< HEAD
-          ignore-unfixed: true
-=======
 #          ignore-unfixed: true
->>>>>>> f9a18b5 (chore: M)
           exit-code: '1'
           format: 'table'
 #          output: 'trivy-image-results.sarif'
